@@ -1,0 +1,58 @@
+
+.hero{
+    position: relative;
+}
+
+.hero > img{
+    width: 100vw;
+    height: 300px;
+    object-fit: cover;
+}
+
+.hero > .overlay{
+    position: absolute;
+    bottom: 80px;
+    left: 100px;
+    z-index: 999;
+}
+
+.hero > .overlay > h1{
+    color: white;
+}
+
+.hero > .overlay > span{
+    color: white;
+}
+
+.hero::after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    background: rgba(15,28,47,.6);
+    width: 100vw;
+    height: 300px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    margin: 50px;
+}
+
+.container > h2{
+    font-size: 30px;
+    /* background-color: red; */
+    margin-bottom: 30px;
+}
+.container > h3 {
+    margin: 20px 0px;
+}
+
+.container > p{
+    color: gray;
+    font-size: 14px;
+    word-spacing: 3px;
+    line-height: 25px;
+}

@@ -1,0 +1,29 @@
+.container{
+    width: 100vw;
+    height: 350px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./asset/map-banner.webp");
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container > h3{
+    font-size: 28px;
+    color: white;
+}
+
+.container > a {
+    text-decoration: none;
+}
+
+.container > a > button{
+    background-color: #33A137;
+}
+
+.container > a > button:hover{
+    background-color: #33A137;
+}

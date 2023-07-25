@@ -1,0 +1,107 @@
+.container{
+    background-color: #F7F9FC;
+    width: 100vw;
+    padding: 30px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container > .heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 600px;
+}
+
+.container > .heading h1{
+    text-align: center;
+    /* background-color: red; */
+    width: 600px;
+    margin-bottom: 20px;
+    color: rgb(68, 67, 67);
+    
+}
+
+.heading h1::after{
+    content: "\f015";
+    font-family: "Font Awesome 5 Free";
+    width: 320px;
+    height: 12px;
+    color:  #33a137;
+    display: block;
+    margin: 0  auto;
+    font-size: 24px;
+    border-bottom: 4px solid #33a137;
+}
+.container > .heading > p {
+    color: gray;
+    text-align: center;
+}
+
+.container > .grid{
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.container > .grid > .box{
+    width: 340px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 2px;
+    margin: 20px 20px;
+}
+.container > .grid > .box > .image > img{
+width: 100%;
+}
+.container > .grid > .box > .text {
+    padding: 30px;
+}
+.container > .grid > .box > .text > .category{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.container > .grid > .box > .text > .category > span {
+    color: #FF9900;
+    background-color:#FFD077 ;
+    
+    border-radius: 2px;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 4px 15px;
+}
+
+.container > .grid > .box > .text > .category > .favoriteIcon{
+    color: gray;
+}
+
+.container > .grid > .box > .text > h4{
+    font-weight: 500;
+    color: #4E4E4E;
+    margin-top: 10px;
+}
+
+.container > .grid > .box > .text > p{
+    color: gray;
+}
+
+.container > .grid > .box > .button{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    border-top: 1px solid #e4e8f3;
+}
+.container > .grid > .box > .button .btn{
+    background-color: #33A137;
+    width: 100px;
+    height: 40px;
+}
+
+.container > .grid > .box > .button label{
+    color: gray;
+}

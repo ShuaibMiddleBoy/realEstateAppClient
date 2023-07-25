@@ -1,0 +1,46 @@
+.container {
+    padding: 50px;
+}
+ 
+.container > .image {
+width: 500px;
+}
+
+.container > .image > img{
+    width: 100%;
+}
+
+.details {
+margin-top: 20px;
+width: 800px;
+}
+
+.details > h3 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.details > .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 10px;
+    column-gap: 50px;
+}
+
+.details > .grid > li  {
+    display: flex;
+    justify-content: space-between;
+    /* gap: 20px; */
+    /* padding-left: 100px; */
+}
+
+.desc{
+    margin-top: 20px;
+}
+
+.desc > h3{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}

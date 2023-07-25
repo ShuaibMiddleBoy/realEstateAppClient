@@ -1,0 +1,35 @@
+.container{
+    background-color: #33A137;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.container > h2{
+    color: white;
+}
+
+.container > p{
+    color: lightgray;
+    margin: 2px 0px 10px;
+}
+
+.container > form > .email{
+width: 350px;
+height: 40px;
+margin-right: 10px;
+border-radius: 5px;
+border: none;
+outline-style: none;
+padding:0px 8px ;
+}
+
+.container > form > .btn{
+    cursor: pointer;
+    height: 40px;
+    border-radius: 5px;
+border: none;
+outline-style: none;
+padding: 0px 10px;
+background-color: #D3D3D3;
+box-shadow: 1px 1px 5px gray;
+}

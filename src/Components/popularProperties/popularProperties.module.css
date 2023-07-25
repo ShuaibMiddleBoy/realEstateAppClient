@@ -1,0 +1,88 @@
+.container{
+    background-color: #F7F9FC;
+    width: 100vw;
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container > .heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 600px;
+}
+
+.container > .heading h1{
+    text-align: center;
+    width: 600px;
+    height: 80px;
+    color: rgb(68, 67, 67);
+    
+}
+
+.heading h1::after{
+    content: "\f015";
+    font-family: "Font Awesome 5 Free";
+    width: 400px;
+    height: 12px;
+    /* overflow: hidden; */
+    color:  #33a137;
+    display: block;
+    margin: 0  auto;
+    font-size: 24px;
+    border-bottom: 4px solid #33a137;
+}
+.container > .heading > p {
+    color: gray;
+    text-align: center;
+}
+
+.container > .featuredProp{
+    width: 100vw;
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container > .featuredProp > .card{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #1261d8;
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+.container > .featuredProp > .card > a{
+    text-decoration: none;
+    background-color: #F7F9FC;
+    border-radius: 5px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    transition: all .4s ease-in;
+}
+.container > .featuredProp > .card > a:hover{
+        box-shadow: 0px 0px 10px lightgray;
+}
+.container > .featuredProp > .card > a > .cardContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container > .featuredProp > .card > a > .cardContent h4{
+    color: #4E4E4E;
+    font-weight: 500;
+}
+.container > .featuredProp > .card > a > .cardContent p{
+    color: gray;
+}

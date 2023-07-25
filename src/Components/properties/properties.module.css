@@ -1,0 +1,93 @@
+.wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 100px;
+  background-color: #f7f9fc;
+}
+
+.mainHeading {
+  margin-bottom: 40px;
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.mainHeading > .heading {
+  text-align: center;
+  width: 600px;
+  height: 80px;
+  color: rgb(68, 67, 67);
+}
+
+.mainHeading > p {
+  text-align: center;
+  color: rgb(94, 93, 93);
+}
+
+.heading::after {
+  content: "\f015";
+  font-family: "Font Awesome 5 Free";
+  width: 120px;
+  height: 12px;
+  color: #33a137;
+  display: block;
+  margin: 0 auto;
+  border-bottom: 4px solid #33a137;
+}
+
+.wrapper > .items {
+  /* height: 400px; */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+a {
+  text-decoration: none;
+  color: rgb(39, 39, 39);
+}
+.wrapper > .items > a > .item {
+  border: 1px solid black;
+  border: none;
+  box-shadow: 0 0 20px 0 rgba(112, 121, 138, 0.18);
+}
+
+.wrapper > .items > a > .item > .text {
+  padding: 30px;
+}
+.wrapper > .items > a > .item > .text > .category {
+  display: flex;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper > .items > a > .item > .text > .category a {
+  color: gray;
+}
+
+.wrapper > .items > a > .item > .text > h4 {
+  margin-top: 10px;
+  margin-left: 7px;
+  font-weight: 500;
+}
+
+.wrapper > .items > a > .item > .text p {
+  color: #72809d;
+  display: flex;
+}
+
+.wrapper > .items > a > .item > .bottom {
+  background-color: #33a137;
+  padding: 10px 0px;
+}
+
+.bottom span {
+  display: block;
+  color: white;
+  text-align: center;
+}
